@@ -12,7 +12,7 @@ const valor = document.querySelector('.valor')
 
 const principal = 'http://api.openweathermap.org/data/2.5/weather?q='
 const chamada = '&units=metric&lang=pt_br&appid='
-const key = '8bf8c3ed814e971a5c1c5b665c457cca'
+const key = 'Usar sua chave' // site api open weather
 
 function fetchLista() {
 	const url = `${principal}${valor.value}${chamada}${key}`
