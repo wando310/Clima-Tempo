@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset class="conteiner">
+        <legend>Consulta Previsão do Tempo</legend>
+        <div class="conteiner-geral">
+            <div class="search">
+                <label>
+                    <input class="valor" type="text" placeholder="Insira o nome da cidade">
+                    <img src="img/lupa.svg" alt="img">
+                </label>
+
+             <!--   <button class="pesquisar">Pesquisar</button> -->
+            </div>
+
+            <div class="conteiner-clima">
+                <div class="side-left">
+                    <h2 class="temperatura">0</h2>
+                    <h3 class="tempo"></h3>
+                    <span class="data">Friday, jun 10</span>
+
+                    <div class="max-min">
+                        <span class="temp-max">Max.<p></p></span>
+                        <span class="temp-min">Min.<p></p></span>
+                    </div>
+                </div>
+                <!--
+                <div class="side-rigth">
+                    <p>Nublado</p>
+                   <img src="img/sol.svg" alt="img">
+                </div>
+                -->
+            </div>
+        </div>
+
+        <div class="dados">
+            <ul>
+                <li>
+                    <img src="img/gota.svg" alt="li-img">
+                    <div>
+                        <p class="umidade"></p>
+                        <span>Umidade</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/car.svg" alt="li-img">
+                    <div>
+                        <p class="velocidade"></p>
+                        <span>Velocidade</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/termometro.svg" alt="li-img">
+                    <div>
+                        <p class="pressao"></p>
+                        <span>Pressão</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/eye.svg" alt="li-img">
+                    <div>
+                        <p class="visibilidade"></p>
+                        <span>Visibilidade</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
