@@ -1,1 +1,0 @@
-Sua chave clima_tempo =  5d3ba219df76c947e58e53ec7903fafc
